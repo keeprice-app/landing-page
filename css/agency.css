@@ -237,14 +237,16 @@ header .intro-text .intro-heading {
 	text-transform: uppercase;
 	font-weight: 300;
 	font-size: 18px;
-	line-height: 22px;
+	line-height: 50px;
+    padding-top:20px;
+    margin-top: 10px;
 	margin-bottom: 20px;
 	text-align:left;	
 }
 
 
 section {
-	padding: 100px 0
+	padding: 0px 0
 }
 section h2.section-heading {
 	font-size: 30px;
@@ -261,7 +263,7 @@ section h3.section-subheading {
 }
 @media (min-width:768px) {
 	section {
-		padding: 150px 0
+		padding: 0px 0
 	}
 }
 .service-heading {
