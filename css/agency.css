@@ -1,6 +1,6 @@
 intro-lead-inbody {
 	overflow-x: hidden;
-	font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif
+	font-family: "PingFang TC", "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif
 }
 .text-muted {
 	color: #777
@@ -25,14 +25,15 @@ a:hover, a:focus, a:active, a.active {
 	color: #76cece
 }
 h1, h2, h4, h5, h6 {
-	font-family: PingFang TC,Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "PingFang TC" ,Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	text-transform: uppercase;
 	font-weight: 700
 }
 h3{
-	font-family: PingFang TC,Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "PingFang TC" ,Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	text-transform: uppercase;
-	font-weight: 300
+	font-weight: 200;
+	font-size:19px;
 }
 .img-centered {
 	margin: 0 auto
@@ -44,17 +45,20 @@ h3{
 	background-color: #222
 }
 .btn-primary {
-	color: #fff;
-	background-color: #00caca;
+	color: #00caca;
+	background-color: #fff;
 	border-color: #00caca;
-	font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "PingFang TC", Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	text-transform: uppercase;
-	font-weight: 700
+	font-size:22px;
+	font-weight: 300;
+    padding:18px 50px 18px 50px;
+    margin-top: 70px;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary {
 	color: #fff;
-	background-color: #76cece;
-	border-color: #f6bf01
+	background-color: #95e5e3;
+	border-color: #95e5e3;
 }
 .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary {
 	background-image: none
@@ -71,7 +75,7 @@ h3{
 	color: #fff;
 	background-color: #00caca;
 	border-color: #00caca;
-	font-family: PingFang TC, Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "PingFang TC" , Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	text-transform: uppercase;
 	font-weight: 700;
 	border-radius: 3px;
@@ -99,8 +103,8 @@ h3{
 	border-color: transparent
 }
 .navbar-default .navbar-brand {
-	color: #00caca;
-	font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive
+	color: #fff;
+	font-family: "PingFang TC", "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive
 }
 .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:active, .navbar-default .navbar-brand.active {
 	color: #76cece
@@ -119,20 +123,20 @@ h3{
 	background-color: #00caca
 }
 .navbar-default .nav li a {
-	font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "PingFang TC", Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	text-transform: uppercase;
 	font-weight: 400;
 	letter-spacing: 1px;
 	color: #fff
 }
 .navbar-default .nav li a:hover, .navbar-default .nav li a:focus {
-	color: #00caca;
+	color: #76cece;
 	outline: 0
 }
 .navbar-default .navbar-nav>.active>a {
 	border-radius: 0;
-	color: #fff;
-	background-color: #00caca
+	color: #00caca;
+	background-color: #fff;
 }
 .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
 	color: #fff;
@@ -157,7 +161,7 @@ h3{
 		border-radius: 3px
 	}
 	.navbar-default.navbar-shrink {
-		background-color: #222;
+		background-color: #95e5e3;
 		padding: 10px 0
 	}
 	.navbar-default.navbar-shrink .navbar-brand {
@@ -165,7 +169,7 @@ h3{
 	}
 }
 header {
-	background-image: url(../img/header-bg.jpg);
+	color:#fff;
 	background-repeat: none;
 	background-attachment: scroll;
 	background-position: center center;
@@ -174,7 +178,7 @@ header {
 	background-size: cover;
 	-o-background-size: cover;
 	text-align: center;
-	color: #fff
+	background-color: #00caca;
 }
 header .intro-text {
 	padding-top: 100px;
@@ -188,6 +192,7 @@ header .intro-text .intro-lead-in {
 	margin-top: -100px;
 	margin-bottom: 30px;
 	text-align:left;
+
 }
 header .intro-text .intro-heading {
 	font-family: "PingFang TC", Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -196,8 +201,9 @@ header .intro-text .intro-heading {
 	font-size: 22px;
 	line-height: 22px;
 	margin-bottom: 20px;
-	text-align:left;
+	text-align:left;	
 }
+
 @media (min-width:768px) {
 	header .intro-text {
 		padding-top: 300px;
@@ -210,8 +216,9 @@ header .intro-text .intro-heading {
 		font-size: 40px;
 		line-height: 40px;
 		margin-bottom: 30px;
-		margin-top: 150px;
+		margin-top: 60px;
 		text-align:left;
+		
 	}
 	header .intro-text .intro-heading {
 		font-family: "PingFang TC", Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -219,17 +226,30 @@ header .intro-text .intro-heading {
 		font-weight: 100;
 		font-size: 22px;
 		line-height: 22px;
-		margin-bottom: 200px;
+		margin-bottom: 170px;
 		text-align:left;
 	}
 }
+
+
+.lead {
+	font-family: "PingFang TC", Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-transform: uppercase;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 22px;
+	margin-bottom: 20px;
+	text-align:left;	
+}
+
+
 section {
 	padding: 100px 0
 }
 section h2.section-heading {
-	font-size: 40px;
+	font-size: 30px;
 	margin-top: 0;
-	margin-bottom: 15px
+	margin-bottom: 30px
 }
 section h3.section-subheading {
 	font-size: 16px;
@@ -516,7 +536,8 @@ section#contact .form-group input.form-control {
 	height: auto
 }
 section#contact .form-group textarea.form-control {
-	height: 236px
+	height: 2
+	6px
 }
 section#contact .form-control:focus {
 	border-color: #00caca;
@@ -609,7 +630,6 @@ ul.social-buttons li a:hover, ul.social-buttons li a:focus, ul.social-buttons li
 .portfolio-modal .modal-content p.item-intro {
 	margin: 20px 0 30px;
 	font-family: "PingFang TC", "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-style: italic;
 	font-size: 16px
 }
 .portfolio-modal .modal-content ul.list-inline {
