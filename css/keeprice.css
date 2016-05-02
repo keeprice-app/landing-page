@@ -116,6 +116,21 @@
     }
 }
 
+.keeprice-icon img{
+    float: left;
+    margin-top: 5px;
+    margin-right: 15px;
+    width: 20%;
+}
+@media (max-width:768px) {
+    .keeprice-icon img{
+    display:none;
+    }
+    .doll-left img{
+    display:none;    
+    } 
+}
+
 .keeprice-logo img{
     float: left;
     margin-top: 5px;
@@ -132,6 +147,7 @@
 
 
 }
+
 
 img{
     margin-left: auto;
