@@ -103,8 +103,8 @@ h3{
 }
 .btn-xl:hover, .btn-xl:focus, .btn-xl:active, .btn-xl.active, .open .dropdown-toggle.btn-xl {
 	color: #fff;
-	background-color: #95e5e3;
-	border-color: #95e5e3;
+	background-color: #555;
+	border-color: #555;
 }
 .btn-xl:active, .btn-xl.active, .open .dropdown-toggle.btn-xl {
 	background-image: none
@@ -126,7 +126,7 @@ h3{
 	font-family: "PingFang TC", "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive
 }
 .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:active, .navbar-default .navbar-brand.active {
-	color: #76cece
+	color: #555
 }
 .navbar-default .navbar-collapse {
 	border-color: rgba(255, 255, 255, .02)
@@ -152,7 +152,7 @@ h3{
 	margin-right: 20px;
 }
 .navbar-default .nav li a:hover, .navbar-default .nav li a:focus {
-	color: #76cece;
+	color: #555;
 	outline: 0
 }
 .navbar-default .navbar-nav>.active>a {
@@ -164,7 +164,7 @@ h3{
 }
 .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
 	color: #fff;
-	background-color: #76cece
+	background-color: #555
 }
 @media (min-width:768px) {
 	.navbar-default {
