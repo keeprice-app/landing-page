@@ -598,7 +598,8 @@ section#contact .text-danger {
 }
 footer {
 	padding: 25px 0;
-	text-align: center
+	text-align: center;
+	background-color: #fff;
 }
 footer span.copyright {
 	line-height: 40px;
@@ -632,7 +633,7 @@ ul.social-buttons li a {
 	transition: all .3s
 }
 ul.social-buttons li a:hover, ul.social-buttons li a:focus, ul.social-buttons li a:active {
-	background-color: #95e5e3
+	background-color: #555
 }
 .btn:focus, .btn:active, .btn.active, .btn:active:focus {
 	outline: 0
@@ -703,11 +704,11 @@ ul.social-buttons li a:hover, ul.social-buttons li a:focus, ul.social-buttons li
 }
 ::-moz-selection {
 	text-shadow: none;
-	background: #00caca
+	background: #e9e9e9
 }
 ::selection {
 	text-shadow: none;
-	background: #00caca
+	background: #e9e9e9
 }
 img::selection {
 	background: 0 0
