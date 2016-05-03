@@ -103,8 +103,8 @@ h3{
 }
 .btn-xl:hover, .btn-xl:focus, .btn-xl:active, .btn-xl.active, .open .dropdown-toggle.btn-xl {
 	color: #fff;
-	background-color: #555;
-	border-color: #555;
+	background-color: #95e5e3;
+	border-color: #95e5e3;
 }
 .btn-xl:active, .btn-xl.active, .open .dropdown-toggle.btn-xl {
 	background-image: none
@@ -605,7 +605,8 @@ footer span.copyright {
 	line-height: 40px;
 	font-family: "PingFang TC", Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	text-transform: uppercase;
-	text-transform: none
+	text-transform: none;
+	color:#00caca;
 }
 footer ul.quicklinks {
 	margin-bottom: 0;
@@ -633,7 +634,7 @@ ul.social-buttons li a {
 	transition: all .3s
 }
 ul.social-buttons li a:hover, ul.social-buttons li a:focus, ul.social-buttons li a:active {
-	background-color: #555
+	background-color: #95e5e3
 }
 .btn:focus, .btn:active, .btn.active, .btn:active:focus {
 	outline: 0

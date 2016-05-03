@@ -15,12 +15,14 @@
     border-bottom: 1px solid #e7e7e7;
 }
 
-.content-wrapper{
-    padding:50px 0 ;
+.content-contact {
+    width:100%;
+    padding: 50px 0;
+    background-color: #f8f8f8;
 }
 
-.register-form{
-    padding:50px 0;
+.content-wrapper{
+    padding:50px 0 ;
 }
 
 @media (min-width:768px) {
@@ -34,10 +36,12 @@
     border-bottom: 1px solid #e7e7e7;
 }
     .content-wrapper{
-    padding:250px 0 ;
+    padding:200px 0 ;
+    width:100%;
 }
-    .register-form{
-    padding:250px 0;
+    .content-contact{
+    padding:200px 0;
+    width:100%;
 }
 }
 
@@ -126,6 +130,9 @@
     .keeprice-icon img{
     display:none;
     }
+}
+
+@media (max-width:990px){
     .doll-left img{
     display:none;    
     } 
@@ -203,6 +210,7 @@ background-color: #95e5e3;
 margin: 0 5px;
 }
 }
+
 
 /*.navbar-default .nav .dropdown-list a{
     margin-left: 0px;
