@@ -136,7 +136,7 @@
     margin-top: 30px;
     width: 60%;
 }
-@media (max-width:768px) {
+@media (max-width:990px) {
     .keeprice-logo{
     display:none;
     }
@@ -169,6 +169,7 @@ img{
     background-color:rgba(0,0,0,0.15);
     box-shadow: none;
     border:0px;
+    padding:0px;
 }
 
 .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover{
@@ -176,11 +177,19 @@ img{
 }
 
 .dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover{
-    background-color: rgba(0,0,0,0.15);
+    background-color: rgba(0,0,0,0.0);
 }
 /*.navbar-default .nav li a:hover, .navbar-default .nav li a:focus*/
-.navbar-default .nav .dropdown-list a:hover{
+.dropdown-list a:hover{
     color:#fff;
+}
+
+.dropdown-list a{
+    color:#fff;
+}
+
+.dropdown-menu>li>a{
+    padding:3px 0;
 }
 
 /*.navbar-default .nav .dropdown-list a{
