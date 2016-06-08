@@ -120,6 +120,20 @@
     }
 }
 
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+    display: block;
+    max-width: 90%;
+    height: auto;
+}
+
+@media (max-width:768px) {
+    .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+    display: block;
+    max-width: 50%;
+    height: auto;
+}
+}
+
 .keeprice-icon img{
     float: left;
     margin-top: 5px;
@@ -159,9 +173,21 @@ img{
 }
 
 .intro-text img{
-    margin-left: -20px;
+    margin-left: -50px;
     margin-top: -100px;
 }
+
+@media (max-width:768px){
+    .intro-text img{
+    max-width: 40%;
+    max-height: auto;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+}
+
+
  h3{
     margin-top: 0px;
     margin-bottom: 20px;
