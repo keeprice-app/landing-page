@@ -122,7 +122,7 @@
 
 .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
     display: block;
-    max-width: 90%;
+    max-width: 95%;
     height: auto;
 }
 
