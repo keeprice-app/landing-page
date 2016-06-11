@@ -31,7 +31,7 @@ h1, h2, h4, h5, h6 {
 }
 h3{
 	font-family: "PingFang TC" ,Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
-	text-transform: uppercase;
+	text-transform: none;
 	font-weight: 400;
 	font-size:19px;
 }
@@ -237,7 +237,7 @@ header .intro-text .intro-heading {
 	header .intro-text .intro-lead-in {
 		font-family: "PingFang TC", "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
 		font-weight: 400;
-		font-size: 40px;
+		font-size: 39px;
 		line-height: 40px;
 		margin-bottom: 30px;
 		margin-top: 60px;
@@ -246,10 +246,10 @@ header .intro-text .intro-heading {
 	}
 	header .intro-text .intro-heading {
 		font-family: "PingFang TC", Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
-		text-transform: uppercase;
+		text-transform: none;
 		font-weight: 200;
 		font-size: 22px;
-		line-height: 22px;
+		line-height: 30px;
 		margin-bottom: 170px;
 		text-align:left;
 	}
@@ -258,11 +258,11 @@ header .intro-text .intro-heading {
 
 .lead {
 	font-family: "PingFang TC", Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
-	text-transform: uppercase;
-	font-weight: 300;
+	text-transform: none;
+	font-weight: 400;
 	font-size: 18px;
 	line-height: 50px;
-    padding-top:20px;
+    padding-top: 10px;
     margin-top: 10px;
 	margin-bottom: 20px;
 	text-align:left;	
@@ -272,7 +272,8 @@ p.section-footing {
 	color:#5c5c5c;
 	font-size: 14px;
 	margin-top: 0;
-	margin-top: 10px
+	margin-top: 10px;
+	text-align: center;
 }
 
 
@@ -604,7 +605,7 @@ section#contact .text-danger {
 	color: #e74c3c
 }
 footer {
-	padding: 25px 0;
+	padding: 40px 0;
 	text-align: center;
 	background-color: #fff;
 }
