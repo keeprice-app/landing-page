@@ -126,7 +126,7 @@
     height: auto;
 }
 
-@media (max-width:768px) {
+@media (max-width:767px) {
     .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
     display: block;
     max-width: 50%;
@@ -140,7 +140,7 @@
     margin-right: 15px;
     width: 20%;
 }
-@media (max-width:768px) {
+@media (max-width:767px) {
     .keeprice-icon img{
     display:none;
     }
@@ -177,7 +177,7 @@ img{
     margin-top: -100px;
 }
 
-@media (max-width:768px){
+@media (max-width:767px){
     .intro-text img{
     max-width: 40%;
     max-height: auto;
@@ -225,7 +225,7 @@ img{
     padding:3px 0;
 }
 
-@media (max-width:768px) {
+@media (max-width:767px) {
 .navbar-default{
 background-color: #95e5e3;
 }

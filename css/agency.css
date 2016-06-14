@@ -56,7 +56,7 @@ h3{
     margin-top: 70px;
     margin-bottom: 50px;
 }
-@media (max-width:768px) {
+@media (max-width:767px) {
 	.btn-primary {
 	color: #00caca;
 	background-color: #fff;
