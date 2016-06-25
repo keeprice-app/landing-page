@@ -1,6 +1,6 @@
 intro-lead-inbody {
 	overflow-x: hidden;
-	font-family: "Helvetica Neue", Helvetica, Arial, "PingFang TC", Montserrat, sans-serif;
+	font-family: "Helvetica Neue", "Helvetica", "Arial", "PingFang TC", "Montserrat", "sans-serif";
 }
 .text-muted {
 	color: #777
@@ -25,12 +25,12 @@ a:hover, a:focus, a:active, a.active {
 	color: #95e5e3
 }
 h1, h2, h4, h5, h6 {
-	font-family:  "Helvetica Neue", Helvetica, Arial, "PingFang TC", Montserrat, sans-serif;
+	font-family:  "Helvetica Neue", "Helvetica", "Arial", "PingFang TC", "Montserrat", "sans-serif";
 	text-transform: uppercase;
 	font-weight: 700
 }
 h3{
-	font-family:  "Helvetica Neue", Helvetica, Arial, "PingFang TC", Montserrat, sans-serif;
+	font-family:  "Helvetica Neue", "Helvetica", "Arial", "PingFang TC", "Montserrat", "sans-serif";
 	text-transform: none;
 	font-weight: 400;
 	font-size:19px;
@@ -48,7 +48,7 @@ h3{
 	color: #00caca;
 	background-color: #fff;
 	border-color: #00caca;
-	font-family:  "Helvetica Neue", Helvetica, Arial, "PingFang TC", Montserrat, sans-serif;
+	font-family:  "Helvetica Neue", "Helvetica", "Arial", "PingFang TC", "Montserrat", "sans-serif";
 	text-transform: uppercase;
 	font-size:22px;
 	font-weight: 300;
@@ -61,9 +61,9 @@ h3{
 	color: #00caca;
 	background-color: #fff;
 	border-color: #00caca;
-	font-family:  "Helvetica Neue", Helvetica, Arial, "PingFang TC", Montserrat, sans-serif;
+	font-family:  "Helvetica Neue", "Helvetica", "Arial", "PingFang TC", "Montserrat", "sans-serif";
 	text-transform: uppercase;
-	font-size:22px;
+	font-size:18px;
 	font-weight: 300;
     padding:18px 50px 18px 50px;
     margin-top: 20px;
@@ -94,7 +94,7 @@ h3{
 	color: #fff;
 	background-color: #00caca;
 	border-color: #00caca;
-	font-family:  "Helvetica Neue", Helvetica, Arial, "PingFang TC", Montserrat, sans-serif;
+	font-family:  "Helvetica Neue", "Helvetica", "Arial", "PingFang TC", "Montserrat", "sans-serif";
 	text-transform: uppercase;
 	font-weight: 700;
 	border-radius: 3px;
@@ -123,7 +123,7 @@ h3{
 }
 .navbar-default .navbar-brand {
 	color: #fff;
-	font-family:  "Helvetica Neue", Helvetica, Arial, "PingFang TC", Montserrat, sans-serif;
+	font-family:  "Helvetica Neue", "Helvetica", "Arial", "PingFang TC", "Montserrat", "sans-serif";
 }
 .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:active, .navbar-default .navbar-brand.active {
 	color: #555
@@ -142,7 +142,7 @@ h3{
 	background-color: #00caca
 }
 .navbar-default .nav li a {
-	font-family:  "Helvetica Neue", Helvetica, Arial, "PingFang TC", Montserrat, sans-serif;
+	font-family:  "Helvetica Neue", "Helvetica", "Arial", "PingFang TC", "Montserrat", "sans-serif";
 	text-transform: uppercase;
 	font-weight: 300;
 	letter-spacing: 1px;
@@ -209,9 +209,9 @@ header .intro-text {
 	padding-bottom: 50px
 }
 header .intro-text .intro-lead-in {
-	font-family:  "Helvetica Neue", Helvetica, Arial, "PingFang TC", Montserrat, sans-serif;
+	font-family: "Helvetica Neue", "Helvetica", "Arial", "PingFang TC", "Montserrat", "sans-serif";
 	font-weight: 300;
-	font-size: 32px;
+	font-size: 28px;
 	line-height: 32px;
 	margin-top: -100px;
 	margin-bottom: 30px;
@@ -219,24 +219,22 @@ header .intro-text .intro-lead-in {
 
 }
 header .intro-text .intro-heading {
-	font-family:  "Helvetica Neue", Helvetica, Arial, "PingFang TC", Montserrat, sans-serif;
+	font-family:  "Helvetica Neue", "Helvetica", "Arial", "PingFang TC", "Montserrat", "sans-serif";
 	text-transform: none;
 	font-weight: 200;
-	font-size: 22px;
-	line-height: 22px;
+	font-size: 20px;
+	line-height: 25px;
 	margin-bottom: 20px;
 	text-align:left;	
 }
 
 header .iphone-remark {
-	font-family:  "Helvetica Neue", Helvetica, Arial, "PingFang TC", Montserrat, sans-serif;
-	font-size: 12px;
+	font-family:  "Helvetica Neue", "Helvetica", "Arial", "PingFang TC", "Montserrat", "sans-serif";
 	font-weight:200;
 	margin: 0 0 0 0;
 	text-align: center;
 	color:#e9e9e9;
 }
-
 
 @media (min-width:768px) and (max-width:992px) {
 	header .intro-text .intro-heading {
@@ -249,7 +247,7 @@ header .iphone-remark {
 
 @media (min-width:992px) {
 	header .intro-text .intro-heading {
-		font-family:  "Helvetica Neue", Helvetica, Arial, "PingFang TC", Montserrat, sans-serif;
+		font-family:  "Helvetica Neue", "Helvetica", "Arial", "PingFang TC", "Montserrat", "sans-serif";
 		text-transform: none;
 		font-weight: 200;
 		font-size: 22px;
@@ -258,7 +256,7 @@ header .iphone-remark {
 		text-align: left;
 	}
 	header .intro-text .intro-lead-in {
-		font-family:   "Helvetica Neue", Helvetica, Arial, "PingFang TC", Montserrat, sans-serif;
+		font-family:   "Helvetica Neue", "Helvetica", "Arial", "PingFang TC", "Montserrat", "sans-serif";
 		font-weight: 400;
 		font-size: 38.5px;
 		line-height: 40px;
@@ -277,7 +275,7 @@ header .iphone-remark {
 	
 	
 	header .iphone-remark {
-	font-family:  "Helvetica Neue", Helvetica, Arial, "PingFang TC", Montserrat, sans-serif;
+	font-family:  "Helvetica Neue", "Helvetica", "Arial", "PingFang TC", "Montserrat", "sans-serif";
 	font-size: 12px;
 	font-weight: 100;
 	margin: -25px 70px 0 -25px;
@@ -287,8 +285,22 @@ header .iphone-remark {
 }
 
 
+.three-points {
+	font-family: "Droid Serif","PingFang TC", "Helvetica Neue", "Helvetica", "Arial", "sans-serif", "Montserrat"; 
+	font-size: 15px;
+	line-height: 50px;
+	}
+
+@media (min-width:367px){
+	.three-points {
+	font-family: "Droid Serif","PingFang TC", "Helvetica Neue", "Helvetica", "Arial", "sans-serif", "Montserrat"; 
+	font-size: 18px;
+	line-height: 50px;
+	}
+}
+
 .lead {
-	font-family:  "Helvetica Neue", Helvetica, Arial, "PingFang TC", Montserrat, sans-serif;
+	font-family:  "Helvetica Neue", "Helvetica", "Arial", "PingFang TC", "Montserrat", "sans-serif";
 	text-transform: none;
 	font-weight: 400;
 	font-size: 18px;
@@ -297,6 +309,20 @@ header .iphone-remark {
     margin-top: 10px;
 	margin-bottom: 20px;
 	text-align: left;	
+}
+
+@media (max-width:368px){
+	.lead {
+	font-family:  "Helvetica Neue", "Helvetica", "Arial", "PingFang TC", "Montserrat", "sans-serif";
+	text-transform: none;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 50px;
+    padding-top: 10px;
+    margin-top: 10px;
+	margin-bottom: 20px;
+	text-align: left;	
+}
 }
 
 p.section-footing {
@@ -318,7 +344,7 @@ section h2.section-heading {
 }
 section h3.section-subheading {
 	font-size: 16px;
-	font-family:  "Helvetica Neue", Helvetica, Arial, "PingFang TC", Montserrat, sans-serif;
+	font-family:  "Helvetica Neue", "Helvetica", "Arial", "PingFang TC", "Montserrat", "sans-serif";
 	text-transform: none;
 	font-style: italic;
 	font-weight: 400;
@@ -609,25 +635,25 @@ section#contact .form-control:focus {
 	box-shadow: none
 }
 section#contact::-webkit-input-placeholder {
-	font-family:  "Helvetica Neue", Helvetica, Arial, "PingFang TC", Montserrat, sans-serif;
+	font-family:  "Helvetica Neue", "Helvetica", "Arial", "PingFang TC", "Montserrat", "sans-serif";
 	text-transform: uppercase;
 	font-weight: 700;
 	color: #bbb
 }
 section#contact:-moz-placeholder {
-	font-family:  "Helvetica Neue", Helvetica, Arial, "PingFang TC", Montserrat, sans-serif;
+	font-family:  "Helvetica Neue", "Helvetica", "Arial", "PingFang TC", "Montserrat", "sans-serif";
 	text-transform: uppercase;
 	font-weight: 700;
 	color: #bbb
 }
 section#contact::-moz-placeholder {
-	font-family:  "Helvetica Neue", Helvetica, Arial, "PingFang TC", Montserrat, sans-serif;
+	font-family:  "Helvetica Neue", "Helvetica", "Arial", "PingFang TC", "Montserrat", "sans-serif";
 	text-transform: uppercase;
 	font-weight: 700;
 	color: #bbb
 }
 section#contact:-ms-input-placeholder {
-	font-family:  "Helvetica Neue", Helvetica, Arial, "PingFang TC", Montserrat, sans-serif;
+	font-family:  "Helvetica Neue", "Helvetica", "Arial", "PingFang TC", "Montserrat", "sans-serif";
 	text-transform: uppercase;
 	font-weight: 700;
 	color: #bbb
@@ -642,14 +668,14 @@ footer {
 }
 footer span.copyright {
 	line-height: 40px;
-	font-family:  "Helvetica Neue", Helvetica, Arial, "PingFang TC", Montserrat, sans-serif;
+	font-family:  "Helvetica Neue", "Helvetica", "Arial", "PingFang TC", "Montserrat", "sans-serif";
 	text-transform: none;
 	color:#00caca;
 }
 footer ul.quicklinks {
 	margin-bottom: 0;
 	line-height: 40px;
-	font-family:  "Helvetica Neue", Helvetica, Arial, "PingFang TC", Montserrat, sans-serif;
+	font-family:  "Helvetica Neue", "Helvetica", "Arial", "PingFang TC", "Montserrat", "sans-serif";
 	text-transform: uppercase;
 	text-transform: none
 }
@@ -696,7 +722,7 @@ ul.social-buttons li a:hover, ul.social-buttons li a:focus, ul.social-buttons li
 }
 .portfolio-modal .modal-content p.item-intro {
 	margin: 20px 0 30px;
-	font-family:  "Helvetica Neue", Helvetica, Arial, "PingFang TC", Montserrat, sans-serif;
+	font-family:  "Helvetica Neue", "Helvetica", "Arial", "PingFang TC", "Montserrat", "sans-serif";
 	font-size: 16px
 }
 .portfolio-modal .modal-content ul.list-inline {
