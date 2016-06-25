@@ -220,7 +220,7 @@ header .intro-text .intro-lead-in {
 }
 header .intro-text .intro-heading {
 	font-family:  "Helvetica Neue", Helvetica, Arial, "PingFang TC", Montserrat, sans-serif;
-	text-transform: uppercase;
+	text-transform: none;
 	font-weight: 200;
 	font-size: 22px;
 	line-height: 22px;
