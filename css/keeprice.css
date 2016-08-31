@@ -40,7 +40,7 @@
     width:100%;
 }
     .content-contact{
-    padding:200px 0;
+    padding:100px 0;
     width:100%;
 }
 }
@@ -86,7 +86,7 @@
     -moz-animation-timing-function: linear;
 }
 
-@-webkit-keyframes pulse {    
+@-webkit-keyframes pulse {
     0% {
         -webkit-transform: scale(1);
         transform: scale(1);
@@ -103,7 +103,7 @@
     }
 }
 
-@-moz-keyframes pulse {    
+@-moz-keyframes pulse {
     0% {
         -moz-transform: scale(1);
         transform: scale(1);
@@ -140,6 +140,10 @@
     margin-right: 15px;
     width: 20%;
 }
+img.download_btn{
+    width:40%;
+    height:auto;
+}
 @media (max-width:767px) {
     .keeprice-icon img{
     display:none;
@@ -148,14 +152,14 @@
 
 @media (max-width:991px){
     .doll-left img{
-    display:none;    
-    } 
+    display:none;
+    }
 }
 
 .keeprice-logo{
-    float:left;
+    float:center;
     margin-top: 30px;
-    width: 60%;
+    width: 40%;
 }
 @media (max-width:991px) {
     .keeprice-logo{
@@ -236,8 +240,19 @@ background-color: #95e5e3;
 margin: 0 5px;
 }
 }
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+.section-download{
 
-
+}
+@media (max-width:991px){
+.section-download{
+    text-align: center;
+}
+}
 /*.navbar-default .nav .dropdown-list a{
     margin-left: 0px;
     margin-right: 0px;
