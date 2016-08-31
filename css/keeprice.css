@@ -245,8 +245,11 @@ margin: 0 5px;
     vertical-align: middle;
     float: none;
 }
+.download-msg{
+    color: black;
+    font-size: 20px;
+}
 .section-download{
-
 }
 @media (max-width:991px){
 .section-download{
